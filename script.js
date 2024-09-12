@@ -81,9 +81,9 @@ function displaySoldiers() {
         platoon.classList.add("platoon");
         status.textContent = soldiers[i].status;
         status.classList.add("status");
-        action.innerHTML = `<button onclick="edit(${i})" class="edit">Edit</button>
-        <button onclick="deleteSoldier(${i})" class="delete ">Delete</button>
-        <button onclick="displayMissionTime(${i})"  class="mission ">Mission</button>`;
+        // action.innerHTML = `<button onclick="edit(${i})" class="edit">Edit</button>
+        // <button onclick="deleteSoldier(${i})" class="delete ">Delete</button>
+        // <button onclick="displayMissionTime(${i})"  class="mission ">Mission</button>`;
         tr.appendChild(name);
         tr.appendChild(rank);
         tr.appendChild(position);
